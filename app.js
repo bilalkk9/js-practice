@@ -90,7 +90,7 @@
 // document.write("variable names are case "+variable9+"<br>");
 // document.write("variable names should not be JS "+variable10+"<br>");
 
-// // Chapter#04
+// // Chapter#05
 
 // // Task No:01
 // var val1=parseInt(prompt("Give 1st value to add?"));
@@ -147,7 +147,44 @@
 // document.write("Shipping charges are: "+charges+"pkr<br><br>");
 // document.write("Total cost of your order is: "+total+"pkr");
 
-var total_mks=parseInt(prompt("What are your total marks:"));
-var obt_mks=parseInt(prompt("What are your obtained marks:"));
-var percentage=parseFloat(obt_mks/total_mks*100);
-document.write("You got "+obt_mks+" marks out of "+total_mks+" and your percentage is: "+percentage+"%");
+// // Task No:07
+// var total_mks=parseInt(prompt("What are your total marks:"));
+// var obt_mks=parseInt(prompt("What are your obtained marks:"));
+// var percentage=parseFloat(obt_mks/total_mks*100);
+// document.write("You got "+obt_mks+" marks out of "+total_mks+" and your percentage is: "+percentage+"%");
+
+// // Task No:08
+// var amount1=parseFloat(prompt("Enter amount in Saudi Riyal:"));
+// var amount2=parseFloat(prompt("Enter amount in US Dollars:"));
+// var riyal=amount1*43;
+// var usd=amount2*160;
+// var totalAmount=riyal+usd;
+// document.write("<h1>Currency Convertor</h1><br>");
+// document.write("The amount in Saudi Riyal is: "+amount1+"<br>");
+// document.write("The amount in American USD is: "+amount2+"<br>");
+// document.write("The total amount in Pakistani Ruppee is: "+totalAmount);
+
+// // Task No:09
+// var currentYear=2020;
+// var birthYear=parseInt(prompt("Enter your birth year"));
+// var dob=currentYear-birthYear;
+// document.write("<h1>Age Calculator</h1><br>");
+// document.write("You are "+dob+" years old.");
+
+// // Task No:10
+// var radius=parseFloat(prompt("Enter radius of a circle:"));
+// var circumference=2*3.142*radius;
+// var area=3.142*(radius)**2;
+// document.write("<h1>The Geometrizer</h1><br>");
+// document.write("The radius of a circle is: "+radius+"<br>");
+// document.write("The circumference of a circle is: "+circumference+"<br>");
+// document.write("The area of a circle is: "+area+"<br>");
+
+// // Task No:11
+// var snack=prompt("Enter your favourite snack: ");
+// var currentAge=parseInt(prompt("Enter your current age: "));
+// var expectedAge=parseInt(prompt("Enter your expected maximum age: "));
+// var snackPerDay=parseInt(prompt("How many packets of " +snack+ " do you eat per day: "));
+// var totalSnacks=(expectedAge-currentAge)*12*30*snackPerDay;
+// document.write("<h1>The lifetime supply calculator</h1><br>");
+// document.write("You are going to eat "+totalSnacks+" "+snack+" in your whole expected life :) ");
