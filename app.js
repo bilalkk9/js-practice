@@ -386,3 +386,92 @@
 // }else if(sign == '/'){
 //     document.write("The division is "+(firstNum/secondNum));
 // }
+
+// Chapter No:12-13
+
+// // Task No: 01
+// var val1=parseInt(prompt("Enter first value:"));
+// var val2=parseInt(prompt("Enter second value:"));
+// if(val1>val2){
+//     document.write(val1+" is greater than "+val2);
+// }else if(val2>val1){
+//     document.write(val2+" is greater than "+val1);
+// }else if(val1==val2){
+//     document.write("Both values are equal");
+// }
+
+// // Task No:02
+// var number=parseInt(prompt("Enter any number:"));
+// if(number>=1){
+// document.write("The number is positive.");
+// }else if(number<1){
+// document.write("The number is negative.");
+// }else if(number==0){
+// document.write("The number is zero.");
+// }
+
+// // Task No:03
+// var char=prompt("Enter any character:");
+// if(char=='a' && 'e' && 'i' && 'o' && 'u' && 'A' && 'E' && 'I' && 'O' && 'U'){
+//     document.write("It is a vowel");
+// }else{
+//     document.write("It is not a vowel");
+// }
+
+// //Task No:04
+// var pass=prompt("Save your password");
+// var savePass=prompt("Enter your saved password");
+// if(pass==savePass){
+//     document.write("Correct! The password you entered matches the original password");
+// }else{
+//     document.write("Incorrect password");
+// }
+
+// //Task No:05
+// var greeting;
+// var hour = 1;
+// if (hour < 18) {
+// greeting = "Good day";
+// }else{
+// greeting = "Good evening";
+// }
+
+// //Task No:06
+// var time=parseInt(prompt("Enter time in 24 hours format"));
+// if(time>=0000 && time<1200){
+//     document.write("Good Morning");
+// }else if(time>=1200 && time<1700){
+//     document.write("Good Afternoon");
+// }else if(time>=1700 && time<2100){
+//     document.write("Good Evening");
+// }else if(time>=2100 && time<2359){
+//     document.write("Good Night");
+// }
+
+
+// Chapter No:14-16
+
+// //Task No:01
+// var array1=[];
+
+// //Task No:02
+// var array2=["Bilal","Ali","Hamza"];
+
+// //Task No:03
+// var array3=[12,21,3,45,6];
+
+// //Task No:04
+// var array4=[true,false];
+
+// //Task No:05
+// var array5=[12,"Ali",true];
+
+// //Task No:06
+// var education=["ssc","hsc","bcs","bsc","b.com","m.com"];
+// document.write("<h1>Qualifications</h1><br>");
+// document.write("1-"+education[0]+"<br>");
+// document.write("2-"+education[1]+"<br>");
+// document.write("3-"+education[2]+"<br>");
+// document.write("4-"+education[3]+"<br>");
+// document.write("5-"+education[4]+"<br>");
+// document.write("6-"+education[5]+"<br>");
