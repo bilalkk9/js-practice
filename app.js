@@ -475,3 +475,58 @@
 // document.write("4-"+education[3]+"<br>");
 // document.write("5-"+education[4]+"<br>");
 // document.write("6-"+education[5]+"<br>");
+
+// //Task No:07
+// var stdName=["Ali","Asad","Asim"];
+// var stdMarks=[398,456,274];
+// document.write("Score of "+stdName[0]+" is: "+stdMarks[0]+" and percentage is: "+parseInt(stdMarks[0]/500*100)+"<br>");
+// document.write("Score of "+stdName[1]+" is: "+stdMarks[1]+" and percentage is: "+parseInt(stdMarks[1]/500*100)+"<br>");
+// document.write("Score of "+stdName[2]+" is: "+stdMarks[2]+" and percentage is: "+parseInt(stdMarks[2]/500*100)+"<br>");
+
+// //Task No:08
+// var stdScore=[120,200,180,100,20];
+// alert(stdScore);
+// var orderedScore=stdScore.sort();
+// alert(orderedScore);
+
+// //Task No:09
+// var cities=["karachi","lahore","islamabad","hyderabad"];
+// var selectedCities=cities.slice(0,3);
+// alert(selectedCities);
+
+// //Task No:10
+// var arr=["This","is","my","dog"];
+// var arr2=arr.join();
+// alert(arr2);
+
+// //Task No:11
+// var values=["ali","asad","amir","asim"];
+// var value2=values.shift();
+// alert(value2);
+
+// //Task No:12
+// var values=["ali","asad","amir","asim"];
+// var value2=values.pop();
+// alert(value2);
+
+//Chapter No:17-20
+
+// //Task No:01
+// var multArray=[
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ];
+// alert(multArray);
+
+// //Task No:02
+// for(var i=1;i<11;i++){
+// document.write(i+"<br>");
+// };
+
+//Task No:03
+// var table=parseInt(prompt("Enter number to show its table"));
+var length=parseInt(prompt("Enter length of table"));
+for(i=1;i<=length;i++){
+    document.write(i);
+};
